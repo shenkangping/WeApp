@@ -8,6 +8,7 @@ jdk 1.8
 sdk api26
 
 踩坑：
+
 1.build.gradle同步失败，参考https://blog.csdn.net/hzh_csdn/article/details/60572145
 
 2.IDEA找到不genymotion模拟器，参考https://blog.csdn.net/dream_18/article/details/85344017
