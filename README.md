@@ -2,9 +2,13 @@
 andriod Study Diary
 
 tools:
+
 IntelliJ IDEA 2018.1.6 x64
-genymotion.0.1
+
+genymotion3.0.1
+
 jdk 1.8
+
 sdk api26
 
 踩坑：
