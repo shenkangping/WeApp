@@ -16,10 +16,10 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
     <Button
-            android:text="点击显示"
+            android:text="打电话给pioneer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="172dp"
             tools:layout_editor_absoluteX="148dp" android:id="@+id/button1"
-            android:visibility="visible" tools:text="点击显示"/>
+            android:visibility="visible" tools:text="打电话给pioneer"/>
 
 </android.support.constraint.ConstraintLayout>
