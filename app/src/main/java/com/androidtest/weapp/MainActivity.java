@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //设置显示的UI
         setContentView(R.layout.activity_main);
-
+//        setContentView(R.layout.line);
         //查找界面控件
         final View button1 = findViewById(R.id.button1);
 //        设置控件的监听事件，监听按钮的点击，内部类实现点击的操作
