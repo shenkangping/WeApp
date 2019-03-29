@@ -7,6 +7,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,3 +44,26 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
+////另一种常用的点击事件写法，实现OnClickListener接口类，内部重写onclick
+//public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+//    private Button bt1;
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//        bt1 = findViewById(R.id.button1);
+//        bt1.setOnClickListener(this);
+//    }
+//
+//    @Override
+//    public void onClick(View v) {
+//        switch (v.getId()){
+//            case R.id.button1 :
+//                Toast.makeText(MainActivity.this, "测试点击", Toast.LENGTH_LONG).show();
+//                break;
+//        }
+//
+//    }
+//}
